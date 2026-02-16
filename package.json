@@ -19,5 +19,6 @@
   "homepage": "https://github.com/rodirodrigorodrigues/Design-Patterns#readme",
   "devDependencies": {
     "typescript": "^5.9.3"
-  }
+  },
+  "type": "module"
 }
