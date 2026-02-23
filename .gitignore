@@ -1,12 +1,18 @@
-# Dependências
-node_modules/
+# =========================
 
-# Build
-dist/
-build/
-out/
+# Dependencies
+
+# =========================
+
+node_modules/
+bower_components/
+
+# =========================
 
 # Logs
+
+# =========================
+
 logs/
 *.log
 npm-debug.log*
@@ -14,31 +20,87 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
-# Arquivos do sistema
-.DS_Store
-Thumbs.db
+# =========================
 
-# Ambiente
+# Environment variables
+
+# =========================
+
 .env
 .env.*
 !.env.example
 
-# TypeScript
+# =========================
+
+# Build output
+
+# =========================
+
+dist/
+build/
+out/
+.next/
+.nuxt/
+.vite/
+coverage/
+
+# =========================
+
+# Cache
+
+# =========================
+
+.cache/
+.parcel-cache/
+.eslintcache
 *.tsbuildinfo
 
-# IDEs e editores
+# =========================
+
+# IDEs & Editors
+
+# =========================
+
 .vscode/
 .idea/
 *.swp
+*.swo
+*.DS_Store
 
-# Test coverage
+# =========================
+
+# OS files
+
+# =========================
+
+Thumbs.db
+Desktop.ini
+
+# =========================
+
+# Testing
+
+# =========================
+
 coverage/
+jest.config.local.js
 
-# Arquivos temporários
-tmp/
-temp/
+# =========================
 
-# Lock files (opcional - escolha sua estratégia)
-# package-lock.json
-# yarn.lock
-# pnpm-lock.yaml
+# Database
+
+# =========================
+
+*.sqlite
+*.sqlite3
+*.db
+
+# =========================
+
+# Misc
+
+# =========================
+
+*.tgz
+*.bak
+*.tmp
